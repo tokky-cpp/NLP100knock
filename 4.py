@@ -17,4 +17,4 @@ for i in range(len(str)):
 
 
 print dic
-#print str
+
