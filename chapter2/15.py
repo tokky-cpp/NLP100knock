@@ -10,6 +10,6 @@ lines = list(open(file,'r'))
 if n > len(lines):
     n = len(lines)
 
-for line in lines[0:n]:
+for line in lines[-n:]:
     print line.rstrip()
 

@@ -1,0 +1,15 @@
+#coding:utf-8
+
+import sys
+
+argvs=sys.argv
+
+lines = list(open(argvs[2],'r'))
+
+= int(argvs[1])
+if argvs[1]>len(lines):
+    argvs[1] = len(lines)
+
+for line in lines[0:argvs[1]]:
+    print line.rstrip()
+
